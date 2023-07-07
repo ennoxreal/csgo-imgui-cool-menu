@@ -217,6 +217,7 @@ void gui::SetupMenu(LPDIRECT3DDEVICE9 device) noexcept
 	font_config.OversampleH = 5;
 	font_config.OversampleV = 5;
 	font_config.RasterizerMultiply = 1.2f;
+	font_config.FontDataOwnedByAtlas = false;
 
 	static const ImWchar ranges[] =
 	{
